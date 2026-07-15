@@ -3,8 +3,8 @@
         "Author": "NaughtyNeko",
         "Name": "IdleSync",
         "InternalName": "IdleSync",
-        "Version":"0.0.0.2",
-        "AssemblyVersion":"0.0.0.2",
+        "Version":"0.0.0.3",
+        "AssemblyVersion":"0.0.0.3",
         "ApplicableVersion": "any",
         "DalamudApiLevel": 15,
         "LoadPriority": 0,
@@ -17,8 +17,8 @@
         "CategoryTags": [ "Other" ],
         "IconUrl": "https://github.com/NNekoPlugins/IdleSync/Data/NNeko.png",
         "RepoUrl": "https://github.com/NNekoPlugins/IdleSync",
-        "DownloadLinkInstall": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.2/latest.zip",
-        "DownloadLinkTesting": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.2/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.2/latest.zip"
+        "DownloadLinkInstall": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.3/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.3/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.3/latest.zip"
     }
 ]
