@@ -1,0 +1,24 @@
+[
+    {
+        "Author": "NaughtyNeko",
+        "Name": "NNekoTemplate",
+        "InternalName": "NNekoTemplate",
+        "Version":"0.0.0.0",
+        "AssemblyVersion":"0.0.0.0",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 15,
+        "LoadPriority": 0,
+        "LoadRequiredState": 0,
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "Punchline": "NNekoTemplate",
+        "Description": "NNekoTemplate",
+        "Tags": [ "NNeko", "NaughtyNeko", "Other" ],
+        "CategoryTags": [ "Other" ],
+        "IconUrl": "https://github.com/NNekoPlugins/NNekoTemplate/Data/NNeko.png",
+        "RepoUrl": "https://github.com/NNekoPlugins/NNekoTemplate",
+        "DownloadLinkInstall": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip"
+    }
+]

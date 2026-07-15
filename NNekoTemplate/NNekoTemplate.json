@@ -1,0 +1,17 @@
+{
+  "Author": "NaughtyNeko",
+  "Name": "NNekoTemplate",
+  "Version": "0.0.0.0",
+  "AssemblyVersion": "0.0.0.0",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 15,
+  "LoadPriority": 0,
+  "IsHide": "False",
+  "IsTestingExclusive": "False",
+  "Punchline": "Template",
+  "Description": "Template",
+  "Tags": [ "NNeko", "NaughtyNeko", "Other" ],
+  "CategoryTags": [ "Other" ],
+  "IconUrl": "https://github.com/NNekoPlugins/NNekoTemplate/Data/NNeko.png",
+  "RepoUrl": "https://github.com/NNekoPlugins/NNekoTemplate"
+}
