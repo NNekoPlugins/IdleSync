@@ -1,7 +1,7 @@
 ﻿using Dalamud.Configuration;
 using System;
 
-namespace NNekoTemplate;
+namespace IdleSync;
 
 [Serializable]
 public class Configuration : IPluginConfiguration

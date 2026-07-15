@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Dalamud.NET.Sdk/15.0.0">
   <PropertyGroup>
-    <Name>NNekoTemplate</Name>
+    <Name>IdleSync</Name>
     <Author>NaughtyNeko</Author>
-    <Punchline>NNekoTemplate</Punchline>
-    <Description>NNekoTemplate</Description>
+    <Punchline>IdleSync</Punchline>
+    <Description>IdleSync</Description>
     <Tags>NNeko,NaughtyNeko</Tags>
     <WarningLevel>4</WarningLevel>
     <PackageLicenseExpression>APGL-3.0-or-later</PackageLicenseExpression>
@@ -24,7 +24,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="NNekoTemplate.json" CopyToOutputDirectory="Always" />
+    <None Include="IdleSync.json" CopyToOutputDirectory="Always" />
     <Content Include="Data\NNeko.png" CopyToOutputDirectory="Always" />
     <PackageReference Include="ECommons" Version="3.2.1.6" />
     <PackageReference Update="DotNet.ReproducibleBuilds" Version="2.0.2" />

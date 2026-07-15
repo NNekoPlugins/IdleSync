@@ -1,8 +1,8 @@
 [
     {
         "Author": "NaughtyNeko",
-        "Name": "NNekoTemplate",
-        "InternalName": "NNekoTemplate",
+        "Name": "IdleSync",
+        "InternalName": "IdleSync",
         "Version":"0.0.0.0",
         "AssemblyVersion":"0.0.0.0",
         "ApplicableVersion": "any",
@@ -11,14 +11,14 @@
         "LoadRequiredState": 0,
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "Punchline": "NNekoTemplate",
-        "Description": "NNekoTemplate",
+        "Punchline": "IdleSync",
+        "Description": "IdleSync",
         "Tags": [ "NNeko", "NaughtyNeko", "Other" ],
         "CategoryTags": [ "Other" ],
-        "IconUrl": "https://github.com/NNekoPlugins/NNekoTemplate/Data/NNeko.png",
-        "RepoUrl": "https://github.com/NNekoPlugins/NNekoTemplate",
-        "DownloadLinkInstall": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/NNekoTemplate/releases/download/v0.0.0.0/latest.zip"
+        "IconUrl": "https://github.com/NNekoPlugins/IdleSync/Data/NNeko.png",
+        "RepoUrl": "https://github.com/NNekoPlugins/IdleSync",
+        "DownloadLinkInstall": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/NNekoPlugins/IdleSync/releases/download/v0.0.0.0/latest.zip"
     }
 ]

@@ -37,14 +37,14 @@ jobs:
         uses: Blooym/setup-dalamud@v1.1.0
 
       - name: Restore Dependencies
-        run: dotnet restore NNekoTemplate/NNekoTemplate.csproj
+        run: dotnet restore IdleSync/IdleSync.csproj
 
 
       - name: Build plugin in release mode
-        run: dotnet build NNekoTemplate/NNekoTemplate.csproj -c Release --no-restore --nologo -o NNekoTemplate/bin/Release
+        run: dotnet build IdleSync/IdleSync.csproj -c Release --no-restore --nologo -o IdleSync/bin/Release
 
       - name: Generate Checksums
-        working-directory: NNekoTemplate/bin/Release/NNekoTemplate
+        working-directory: IdleSync/bin/Release/IdleSync
         run: |
           sha512sum latest.zip >> checksums.sha512
 
@@ -52,8 +52,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            NNekoTemplate/bin/Release/NNekoTemplate/latest.zip
-            NNekoTemplate/bin/Release/NNekoTemplate/checksums.sha512
+            IdleSync/bin/Release/IdleSync/latest.zip
+            IdleSync/bin/Release/IdleSync/checksums.sha512
           prerelease: false
           append_body: true
           body_path: .github/release-notices.md
@@ -76,10 +76,10 @@ jobs:
           git add repo.json
 
           export PROJECT_LOCATION=$(echo ${{ github.server_url }}/${{ github.repository }} | sed  's/\//\\\//g')
-          sed -i "s/\"AssemblyVersion\": \"[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\"/\"AssemblyVersion\": \"${TAG_NAME}\"/g" NNekoTemplate/NNekoTemplate.json
-          sed -i "s/\"Version\": \"[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\"/\"Version\": \"${TAG_NAME}\"/g" NNekoTemplate/NNekoTemplate.json
+          sed -i "s/\"AssemblyVersion\": \"[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\"/\"AssemblyVersion\": \"${TAG_NAME}\"/g" IdleSync/IdleSync.json
+          sed -i "s/\"Version\": \"[0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\"/\"Version\": \"${TAG_NAME}\"/g" IdleSync/IdleSync.json
 
-          git add NNekoTemplate/NNekoTemplate.json
+          git add IdleSync/IdleSync.json
           
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"

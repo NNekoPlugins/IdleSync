@@ -1,6 +1,6 @@
 {
   "Author": "NaughtyNeko",
-  "Name": "NNekoTemplate",
+  "Name": "IdleSync",
   "Version": "0.0.0.0",
   "AssemblyVersion": "0.0.0.0",
   "ApplicableVersion": "any",
@@ -12,6 +12,6 @@
   "Description": "Template",
   "Tags": [ "NNeko", "NaughtyNeko", "Other" ],
   "CategoryTags": [ "Other" ],
-  "IconUrl": "https://github.com/NNekoPlugins/NNekoTemplate/Data/NNeko.png",
-  "RepoUrl": "https://github.com/NNekoPlugins/NNekoTemplate"
+  "IconUrl": "https://github.com/NNekoPlugins/IdleSync/Data/NNeko.png",
+  "RepoUrl": "https://github.com/NNekoPlugins/IdleSync"
 }

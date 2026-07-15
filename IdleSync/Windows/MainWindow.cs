@@ -7,17 +7,17 @@ using Dalamud.Interface.Utility.Raii;
 using Dalamud.Interface.Windowing;
 using Lumina.Excel.Sheets;
 
-namespace NNekoTemplate.Windows;
+namespace IdleSync.Windows;
 
 public class MainWindow : Window, IDisposable
 {
     private readonly string iconImagePath;
-    private readonly NNekoTemplate plugin;
+    private readonly IdleSync plugin;
 
     // We give this window a hidden ID using ##.
     // The user will see "My Amazing Window" as window title,
     // but for ImGui the ID is "My Amazing Window##With a hidden ID"
-    public MainWindow(NNekoTemplate plugin, string iconImagePath)
+    public MainWindow(IdleSync plugin, string iconImagePath)
         : base("My Amazing Window##With a hidden ID", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
         SizeConstraints = new WindowSizeConstraints
