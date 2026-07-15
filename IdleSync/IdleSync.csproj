@@ -27,7 +27,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="IdleSync.json" CopyToOutputDirectory="Always" />
+        <EmbeddedResource Include="IdleSync.json" CopyToOutputDirectory="PreserveNewest" />
         <None Include="..\Data\*" CopyToOutputDirectory="Always" />
         <PackageReference Include="ECommons" Version="3.2.1.6" />
         <PackageReference Update="DotNet.ReproducibleBuilds" Version="2.0.2" />
