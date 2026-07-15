@@ -25,7 +25,7 @@
 
   <ItemGroup>
     <None Include="IdleSync.json" CopyToOutputDirectory="Always" />
-    <Content Include="Data\NNeko.png" CopyToOutputDirectory="Always" />
+    <None Include="..\Data\*" CopyToOutputDirectory="Always" />
     <PackageReference Include="ECommons" Version="3.2.1.6" />
     <PackageReference Update="DotNet.ReproducibleBuilds" Version="2.0.2" />
   </ItemGroup>

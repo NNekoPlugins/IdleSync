@@ -1,4 +1,4 @@
-﻿using Dalamud.Game.Command;
+using Dalamud.Game.Command;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using System.IO;
@@ -26,7 +26,7 @@ public sealed class IdleSync : IDalamudPlugin
     private ConfigWindow ConfigWindow { get; init; }
     private MainWindow MainWindow { get; init; }
 
-    public Plugin()
+    public IdleSync()
     {
         Configuration = PluginInterface.GetPluginConfig() as Configuration ?? new Configuration();
 
